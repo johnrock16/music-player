@@ -1,0 +1,53 @@
+.container-center{
+    justify-content: center;
+}
+
+.container-progress{
+    margin: 5%;
+}
+
+.music-title{
+    font-weight: bold;
+    font-size: larger;
+}
+
+.music-band{
+    font-weight: lighter;
+    font-size: medium;
+}
+
+.info-container{
+    margin: 10px;
+    height: fit-content;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.tools-container{
+    justify-content: center;
+    align-items: center;
+}
+
+.music-image{
+    margin: 1%;
+    min-width: 300px;
+    min-height: 300px;
+    height: 75%;
+    width: 75%;
+}
+
+.icons{
+    color: '#FFF';
+}
+
+
+@media (prefers-color-scheme: dark) {
+    :root {
+      /* Dark mode variables go here */
+    }
+  }
+  
+  /* Fallback for older browsers or manual mode */
+  .icons.dark {
+   color:'#000';
+}
